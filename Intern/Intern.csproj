@@ -36,8 +36,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Internable.cs" />
-    <Compile Include="InternableWithWeakTableAndValueKey.cs" />
-    <Compile Include="InternableWithWeakTable.cs" />
+    <Compile Include="InternableWithWeakRefs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
