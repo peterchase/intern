@@ -1,7 +1,7 @@
 ﻿using System.Collections.Concurrent;
 using System.Collections.Generic;
 
-namespace Intern.Example2
+namespace Intern.Example2PrivateConstructor
 {
     /// <summary>
     /// This class is internable and has private constructor, so client code cannot possibly obtain a non-canonical instance.
