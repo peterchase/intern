@@ -36,6 +36,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Example2PrivateConstructor\StockItem.cs" />
+    <Compile Include="Experimental\StockItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Example1PublicConstructor\StockItem.cs" />
   </ItemGroup>

@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="Example1PublicConstructor\StockItemTests.cs" />
     <Compile Include="Example2PrivateConstructor\StockItemTests.cs" />
+    <Compile Include="Experimental\StockItemTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
