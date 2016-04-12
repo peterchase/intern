@@ -26,12 +26,14 @@ namespace Intern.Experimental
 
         public string Description => description;
 
+        public static int NumInterns => Interns.Count;
+
         public static StockItem Intern(int number, string text)
         {
             for(;;)
             {
                 var possiblyNonCanonicalInstance = new StockItem(number, text);
-                var newWeakReference = new WeakReference<StockItem>(possiblyNonCanonicalInstance);
+                var newWeakReference = new WeakReference<StockItem>(possiblyNonCanonicalInstance, true);
                 WeakReference<StockItem> internedWeakReference = Interns.GetOrAdd(newWeakReference, newWeakReference);
 
                 if (!ReferenceEquals(newWeakReference, internedWeakReference))
